@@ -1,0 +1,124 @@
+
+/* Fond général du site */
+body {
+    background-color: #333333;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Titres */
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: lightgreen;
+}
+
+/* Paragraphes */
+p {
+    font-size: 18px;
+}
+
+/* Boutons */
+a {
+    display: block;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    margin: 15px auto;
+    width: 250px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Boutons au passage de la souris */
+a:hover {
+    background-color: green;
+}
+
+/* Cadre derrière le texte */
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+/* Image de l'accueil */
+body.accueil {
+    background-image: url("images/accueil.jpg");
+}
+
+/* Image de l'entrée */
+body.page1 {
+    background-image: url("images/entree.jpg");
+}
+
+/* Image du hall */
+body.page2 {
+    background-image: url("images/hall.jpg");
+}
+
+/* Image du jardin */
+body.page3 {
+    background-image: url("images/jardin.jpg");
+}
+
+/* Image de l'étage */
+body.page4 {
+    background-image: url("images/etage.jpg");
+}
+
+/* Image de la bibliothèque */
+body.page5 {
+    background-image: url("images/bibliotheque.jpg");
+}
+
+/* Image de la cabane */
+body.page6 {
+    background-image: url("images/cabane.jpg");
+}
+
+/* Image de la cave */
+body.page7 {
+    background-image: url("images/cave.jpg");
+}
+
+/* Image de la prison */
+body.page8 {
+    background-image: url("images/prison.jpg");
+}
+
+/* Image du trésor */
+body.page9 {
+    background-image: url("images/tresor.jpg");
+}
+
+/* Image de la sortie */
+body.page10 {
+    background-image: url("images/sortie.jpg");
+}
+
+/* Image de la cellule */
+body.page11 {
+    background-image: url("images/cellule.jpg");
+}
+
+/* Image du passage secret */
+body.page12 {
+    background-image: url("images/passage.jpg");
+}
+
+/* Image de la salle secrète */
+body.page13 {
+    background-image: url("images/secret.jpg");
+}
